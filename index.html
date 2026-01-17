@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabajo Remoto | Oportunidad Laboral</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #f4f7fb, #eef2f7);
+      color: #000;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 50px 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      font-size: 34px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .text {
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #111;
+    }
+
+    .requirements {
+      background: #f8faff;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+    }
+
+    .requirements h3 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+
+    .requirements ul {
+      padding-left: 20px;
+    }
+
+    .requirements li {
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+
+    .btn-container {
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #4f8cff;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 18px 40px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 8px 20px rgba(79,140,255,0.30);
+      transition: all 0.3s ease;
+
+      /* EFECTO BREATHE */
+      animation: breathe 2.8s ease-in-out infinite;
+    }
+
+    .btn:hover {
+      background-color: #3b74d9;
+      transform: translateY(-2px);
+    }
+
+    .note {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #444;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 26px;
+      }
+
+      .card {
+        padding: 35px 25px;
+      }
+    }
+
+    /* KEYFRAMES DEL EFECTO BREATHE */
+    @keyframes breathe {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 8px 20px rgba(79,140,255,0.30);
+      }
+      50% {
+        transform: scale(1.04);
+        box-shadow: 0 14px 35px rgba(79,140,255,0.45);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 8px 20px rgba(79,140,255,0.30);
+      }
+    }
+
+    .flag-icon {
+  width: 22px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+    /* Bandera mobile (emoji) */
+.flag-mobile {
+  display: none;
+  font-size: 1em;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+/* Bandera desktop (imagen) */
+.flag-desktop {
+  display: inline-block;
+  width: 22px;
+  height: auto;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .flag-desktop {
+    display: none;
+  }
+
+  .flag-mobile {
+    display: inline;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card">
+
+     <h1>
+  Busqueda laboral remota
+  <span class="flag-mobile">🇻🇪</span>
+  <img src="https://flagcdn.com/w20/ve.png" alt="Venezuela" class="flag-desktop">
+</h1>
+
+      <div class="text">
+        Estamos en la búsqueda de personas comprometidas que quieran trabajar de forma remota y tengan un manejo básico de herramientas digitales.<br> 
+      </div>
+
+      <div class="requirements">
+        <h3>Completa el formulario</h3>
+        <ul>
+          <li>Trabajo 100% remoto desde Venezuela</li>
+          <li>Jornada de 6 días a la semana – 8 horas diarias</li>
+          <li>Conocimiento básico en uso de computadora y Excel</li>
+          <li>Ser mayor de 18 años y completar el formulario es obligatorio para avanzar</li>
+        </ul>
+      </div>
+
+      <div class="btn-container">
+        <a href="https://forms.gle/XF1gZ917YYLtzC478" target="_blank" class="btn">
+          Completar formulario
+        </a>
+      </div>
+
+      <p class="note">
+        Revisamos cada aplicación y contactamos únicamente a los perfiles preseleccionados.
+      </p>
+
+      <footer>
+        © Oportunidad laboral – Trabajo remoto
+      </footer>
+
+    </div>
+  </div>
+
+</body>
+</html>
